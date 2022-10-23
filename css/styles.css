@@ -35,7 +35,10 @@ body {
     padding-bottom: 32px;
     padding-inline-start: 0;
   }
-  .menu-logo {
+ .menu-stuff:hover {
+    color:#2196F3;
+ }
+    .menu-logo {
      display: flex;
     flex-direction: row;
     box-sizing: content-box;
@@ -46,6 +49,7 @@ body {
   .menu-stuff {
     padding-inline-start: 0;
   }
+  
 .menu-contacts {
     display: flex;
     flex-direction: row; 
@@ -337,7 +341,7 @@ a.menu {
     letter-spacing: 0.03em;
     color: #212121;
  }
- .nav :hover {
+ .nav:hover {
 color:#2196F3;
  }
  .nav :focus {
