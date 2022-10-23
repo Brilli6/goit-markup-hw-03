@@ -1,7 +1,6 @@
 body { 
     font-family: "Roboto", sans-serif;
     color: #212121; 
-    width: 1600px;
 }
 
 .container-header {
@@ -87,7 +86,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 30px;
+    margin: 0 auto;
 }
 
 .header-big {
@@ -391,7 +390,6 @@ line-height: 1.17;
 .footer {
     font-family: "Roboto", sans-serif;
    background-color: #2F303A;
-    max-width: 1600px;
     display: block;
     box-sizing: content-box;
     flex-grow: 1;
