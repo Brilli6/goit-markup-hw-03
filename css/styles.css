@@ -72,7 +72,7 @@ body {
     width: 100%;
     max-width: 1200px;
     box-sizing: border-box;
-    padding: 94px 15px 0 15px;
+    padding: 0 15px;
     margin: 0 auto;
   }
 .main-box {
@@ -278,7 +278,6 @@ letter-spacing: 0.03em;
 text-align: center;
 margin-block-start: 0;
 margin-block-end: 0;
-margin-bottom: -44px;
 }
 
 .lorem-description {
@@ -407,7 +406,7 @@ a.bottom{
     line-height: 1.71;
     letter-spacing: 0.03em;
 } 
-.logo-bottom {
+.bottom {
     font-family: "Raleway", sans-serif;
     text-decoration: none;
     color:white; 
