@@ -341,7 +341,7 @@ a.menu {
     letter-spacing: 0.03em;
     color: #212121;
  }
- .nav:hover {
+ .nav :hover {
 color:#2196F3;
  }
  .nav :focus {
