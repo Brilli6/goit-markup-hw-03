@@ -11,13 +11,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" />
-    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
     <link rel="stylesheet" href="./css/styles.css" />
 
 </head>
 
 <body>
-    <header>
+    <header class="header-menu">
         <div class="container-header">
             <div class="menu-logo"> <a href="index.html">
                     <p class="logo-top"><span class="blue">Web</span>Studio</p>
@@ -31,7 +31,7 @@
                     </ul>
                 </nav>
             </div>
-            <div class="contacts-stuff">
+            <div class="menu-contacts">
                 <ul class="contacts">
                     <li><a class="contact" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                     <li><a class="contact" href="tel:+48111111111">+48 111 111 111</a></li>
@@ -39,16 +39,16 @@
             </div>
         </div>
     </header>
-    <main class="container-main">
+    <main class="main-box-content">
         <section class="main-box">
-            <div class="main-box-content">
+            <div class="container">
                 <h1 class="header-big">EFEKTYWNE ROZWIĄZANIA DLA TWOJEGO BIZNESU</h1>
                 <button type="button" class="button-main"><span class="button-title">Zamów usługę</span></button>
             </div>
         </section>
 
-        <section>
-            <div class="container-lorem">
+        <section class="lorem-stuff">
+            <div class="container">
                 <ul class="lorems">
                     <li class="lorem-item">
                         <h3 class="lorem">LOREM IPSUM</h3>
@@ -81,7 +81,7 @@
             </div>
         </section>
         <section>
-            <div class="container-what">
+            <div class="container">
                 <h2 class="heading-2"> Czym się zajmujemy</h2>
                 <div class="pictures-all">
                     <ul class="pictures">
@@ -96,9 +96,9 @@
                     </ul>
                 </div>
         </section>
-        <section class="container-team">
-            <h2 class="heading 2"> Nasz zespół</h2>
-            <div class="our-team">
+        <section class="our-team">
+            <h2 class="heading-2"> Nasz zespół</h2>
+            <div class="container">
                 <ul class="team-members">
                     <li class="member"><img class="members-picture" src="./images/johndoe1.jpg " alt="zdjęcie"
                             width="270" height="260">
@@ -125,7 +125,7 @@
         </section>
     </main>
 
-    <footer>
+    <footer class="footer">
         <a class="bottom" href="index.html">
             <p class="logo-bottom"><span class="blue">Web</span>Studio</p>
         </a>
