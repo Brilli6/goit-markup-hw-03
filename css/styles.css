@@ -51,10 +51,7 @@ body {
     flex-direction: row; 
     box-sizing: content-box;
     justify-content: space-between;
-    text-align: center;
-   
-  
-    
+    text-align: center;   
   }
   .contacts {
     display: flex;
@@ -263,7 +260,7 @@ flex-basis:calc((100% - 60px)/ 3);
     text-indent: 0;
     padding-bottom: 60px;
 }
-H3.lorem {
+.lorem {
 font-family: inherit;
 color:#212121;
 font-size: 14px;
@@ -305,7 +302,7 @@ color:#757575;
 line-height: 1.19;
 letter-spacing: 0.03em;
 }
-button {
+.button {
     font-family: inherit;
     color:#212121;
     font-weight: 500;
@@ -315,7 +312,7 @@ button {
     border: none;
     cursor: pointer;
 }
-button:hover {
+.button:hover {
 background-color:#2196F3;
 color:white; 
 }
@@ -340,13 +337,13 @@ a.menu {
     letter-spacing: 0.03em;
     color: #212121;
  }
- nav :hover {
+ .nav :hover {
 color:#2196F3;
  }
- nav :focus {
+ .nav :focus {
 color:#2196F3; 
  }
- nav :active {
+ .nav :active {
     color:#2196F3;
  }
 .menu-logo>a {
@@ -402,7 +399,7 @@ line-height: 1.17;
 a.bottom{
     text-decoration: none;
 }
-address {
+.bottom-contacts {
     font-style: normal;
     color: white; 
     font-size: 14px;
@@ -438,7 +435,7 @@ color:#2196F3;
 .logo-bottom:active{
     color:#2196F3;
 }
-footer .blue {
+.footer .blue {
     color:#2196F3;
 }
 .bottom-contact {
